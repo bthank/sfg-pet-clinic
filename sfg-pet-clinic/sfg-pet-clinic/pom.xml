@@ -22,12 +22,11 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
 	</properties>
-	<dependencies>
-
-
-
-	</dependencies>
-
+	<scm>
+    <developerConnection>scm:git:https://github.com/bthank/sfg-pet-clinic.git</developerConnection>
+  <tag>HEAD</tag>
+</scm>
+ 
 	<build>
 
 		<pluginManagement>
@@ -43,6 +42,13 @@
 						</exclude>
 					</excludes>
 				</configuration>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-release-plugin</artifactId>
+					<configuration>
+						<goals>install</goals>
+					</configuration>
 				</plugin>
 			</plugins>
 		</pluginManagement>
