@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.binu.springframework</groupId>
 	<artifactId>sfg-pet-clinic</artifactId>
-	<version>1.1</version>
+	<version>1.2-SNAPSHOT</version>
 
 	<packaging>pom</packaging>
 	<name>sfg-pet-clinic</name>
@@ -22,7 +22,7 @@
 	</properties>
 	<scm>
     <developerConnection>scm:git:https://github.com/bthank/sfg-pet-clinic.git</developerConnection>
-  <tag>sfg-pet-clinic-1.1</tag>
+  <tag>HEAD</tag>
 </scm>
  
 	<build>
